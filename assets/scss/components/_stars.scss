@@ -1,0 +1,28 @@
+.stars {
+    background-color: $white;
+    border: 1px solid $black;
+
+    &-wrap {
+        position: absolute;
+        top: 5px;
+        left: 35px;
+
+        width: 600px;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+}
+
+
+svg {
+  position: relative;
+  z-index: 11;
+}
+
+canvas {
+  background-color: $white;
+  position: relative;
+  z-index: 10;
+}
